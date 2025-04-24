@@ -64,7 +64,7 @@ export default function Home() {
             </div>
 
             {filteredCountries.length ? (
-              <div className="flex bg-white w-[567px] h-auto rounded-[16px] absolute z-50">
+              <div className="flex bg-white w-[567px] h-auto rounded-[16px] absolute z-50 mt-5">
                 <div className="flex bg-white w-[567px] h-auto rounded-[16px]  absolute ">
                   <div>
                     {filteredCountries.map((country, index) => (
@@ -92,7 +92,7 @@ export default function Home() {
             ></Image>
           </div>
 
-          <div className="w-[430px] h-auto bg-white/30 backdrop-blur-md rounded-[48px] mt-36 absolute shadow-lg z-30 p-10 box-border">
+          <div className="w-auto h-auto bg-white/30 backdrop-blur-md rounded-[48px] mt-36 absolute shadow-lg z-30 p-10 box-border">
             <div className="flex justify-between items-center">
               <div>
                 <h6 className="text-xl text-gray-600 font-[Manrope] font-medium leading-5 pb-2">
